@@ -12,8 +12,8 @@ router.get('/', (req, res, next) => {
       });
 });
 
-router.get('/new', (req, res, next) => {
-    res.render('celebrities/new.hbs');
+router.get('/add', (req, res, next) => {
+    res.render('celebrities/add.hbs');
 });
 
 
